@@ -1,10 +1,9 @@
 class ssh::install(
-  $package_name = $::ssh::package_name,
-  $service_name = $::ssh::service_name,
-
+  String $package_name = $::ssh::package_name,
 ) { 
-  package { 'openssh-server':
+  package { 'ssh-package':
     ensure    => present,
+    name      => $package_name,
   }
 }
 
