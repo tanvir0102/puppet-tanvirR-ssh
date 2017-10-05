@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ssh
 
 #### Table of Contents
@@ -81,3 +82,7 @@ know what the ground rules for contributing are.
 If you aren't using changelog, put your release notes here (though you should
 consider using changelog). You can also add any additional sections you feel
 are necessary or important to include here. Please use the `## ` header.
+=======
+# puppet-tanvirR-ssh
+This puppet module will manage ssh.
+>>>>>>> 3f6a8f2cdbc3031cce4e3b7827bee1ab2073dc5e
